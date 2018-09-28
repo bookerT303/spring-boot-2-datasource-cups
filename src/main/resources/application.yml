@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${vcap.services.cups-db.credentials.jdbcUrl}
+    username: ${vcap.services.cups-db.credentials.username}
+    password: ${vcap.services.cups-db.credentials.password}
